@@ -133,7 +133,7 @@ body{
 }
 @media (max-width:768px) {
     .contain{
-        display:flex;
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
