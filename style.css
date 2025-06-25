@@ -132,8 +132,14 @@ body{
     background-color: #880f5b;
 }
 @media (max-width:768px) {
+    .contain{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
     .contain .images{
         width: 40%;
+        height:auto;
         margin: 0.7rem;
     }
     
