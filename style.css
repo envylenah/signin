@@ -131,4 +131,10 @@ body{
 .contain .images button:hover{
     background-color: #880f5b;
 }
-     
+@media (max-width:768px) {
+    .contain .images{
+        width: 40%;
+        margin: 0.7rem;
+    }
+    
+}
